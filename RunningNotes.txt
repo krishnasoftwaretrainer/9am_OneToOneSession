@@ -1,0 +1,165 @@
+Environment SetUp:
+---------------
+1.Java(jdk25v) Programming Language
+2.EclipseIDE(2025-12) (IDE]
+3.Selenium WebDriver(4.ov) Automation Tool 
+4.Drivers:Chrome,Edge,Geko,
+5.Browsers:Chrome,Edge,FireFox 
+
+Manual TestCases into Selenium Script:
+
+Step1:Open Chrome/Mozilla/Edge Browser
+Step2:Maximize Chrome Browser
+Step3:Enter App URL: https://www.saucedemo.com/
+Step4:driver.close();
+
+Smoke Testing:
+Title Verification:
+URL Verification:
+
+https://www.saucedemo.com/
+
+WebElements:
+TextBox:SendKeys
+Text Area:SendKeys[Enter]
+RadioButtons:Click
+Checkbox:Click
+Dropdowns:Select
+ListBox :Select
+Buttons:Click
+Links:Click
+
+Web Locaters:
+------------
+ID:
+Name:
+ClassName:
+TagName:
+LinkText:
+PartialLinkText:
+CSS Selector
+XPath
+
+Web Locaters:
+------------
+ID:
+Name:
+ClassName:
+TagName:
+LinkText:
+PartialLinkText:
+CSS Selector:
+ID:tagname#id: input#email
+ClassName:tagname.classname: input.inputtext _55r1 _6luy
+Attribute:tagName[attribute="value"]
+input[aria-label="Email address or phone number"]
+
+XPath:
+-----
+Syntax://TagName[@Attribute="Value"]
+		//a[@id="email"]
+Syntax://TagName[text()="Text Value"]
+		
+/html/body/div[1]/div[1]/div[1]/div/div/div/div[2]/div/div[1]/form/div[1]/div[1]/input
+//*[@id="email"]
+
+//tag[text()='Exact Text']
+//tag[contains(text(),'partial text')]
+//div[contains(text(),"Select Date of Journey")]
+//tag[normalize-space()='Exact Text']
+//tag[contains(normalize-space(text()),"partial Text')]
+
+
+
+findElement:WebElement
+findElements:<List>
+
+Select select=new Select();
+select.
+
+Scroll Web Page:
+----------------JavascriptExecutor
+Bottom to Top: Verticall: 50
+Top to Bottom
+Left to Right:Horizontally
+Right to Left
+
+File sc1=((TakesScreenshot) driver). getScreenshotAs (OutputType.FILE);
+Files.copy(sc1, new File( "C:\\Users\\HP\\OneDrive\\Desktop\\ RegForm1.png"));
+		
+https://demoqa.com/automation-practice-form
+
+Browser Navigations:
+-----------------
+ForWard
+Backward
+ReFresh
+
+Screen Shots:
+-----------
+
+Action Class in Selenium:
+-----------------------
+1.KeyBoard:
+KeyDown:Ctrl 
+SendKeys: 'c' 'v'
+KeyUp:Ctrl    Ramu 
+
+19. KEYBOARD ACTIONS  ACTIONS:
+KeyDown:Click and Hold 
+KeyUp:Release
+SendKeys:
+
+
+20. MOUSEOVER ACTIONS: 
+
+2.Mouse:
+-------
+DC RC 
+
+Hello World  Krishna Rama Rao 
+Hello W 
+
+ClassName.MethodName(); //Cal Static
+ClassName ObjName=new ClassName();  
+Object.MethodName(); Non-Static
+
+Alerts:
+-----
+Accept:OK 
+Dismiss:Cancel
+SendKeys:""
+getText()
+
+driver.switchTo().newWindow(WindowType.TAB);
+driver.switchTo().newWindow(WindowType.WINDOW);
+		
+//tag[text()='Exact Text']
+//tag[contains(text(),'partial text')]
+//div[contains(text(),"Select Date of Journey")]
+//tag[normalize-space()='Exact Text']
+//tag[contains(normalize-space(text()),"partial Text')]
+
+Switch to Windows and Tabs:
+---------------------
+Amazon Window ID: 8DAF9ACA9ABB378617A3E2D8D89DF164
+9C172F7D93E89B5E4C6EA5A0B14ECD28
+Flipkart Window ID: 48AF952CD825AF30C89808AF90F86B88
+Myntra Window ID: 1AF967AFE1C82481782ECED0E3EDCEA1
+
+Frames:
+-------
+Index:0 1 2 3
+(Id or Name)
+WebElement
+
+ControlFocus("title", "text",controlID );
+// Execute AutoIt EXE
+Runtime.getRuntime().exec("C:\\AutoItScripts\\FileUpload.exe");
+
+Alerts:
+------
+Accept[OK/Yes]
+Dismiss[Cancel]
+SendKeys
+getText

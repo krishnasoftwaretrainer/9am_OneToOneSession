@@ -1,0 +1,56 @@
+SELENIUM TOPICS:
+----------------
+1. INTRODUCTION OF AUTOMATION TESTING  
+2. BROWSER LAUNCHING:CHROME EDGE FIREFOX 
+3. TITLE AND URL VERIFICATION  
+4. WEB LOCATORS AND WEB ELEMENTS  
+5. FINDELEMENT AND FINDELEMENTS  
+6. WEB DRIVER/WEBELEMENT METHODS  
+7. LOCATORS  
+9. CLEAR METHOD  
+10. RADIO BUTTON  
+11. CHECK BOX  
+12. DROP DOWN  
+14. JAVASCRIPT EXECUTOR  
+15. SCROLL UP AND SCROLL DOWN 
+16. NAVIGATION COMMANDS  
+17. SCREENSHOT 
+18. HEADLESS BROWSER 
+19. KEYBOARD ACTIONS  
+20. MOUSEOVER ACTIONS 
+21. isDisplayed(),isEnabled() and isSelected()
+28. WEB TABLE 
+21. DRAG AND DROP AND RIGHT CLICK  
+23. FRAME HANDLING  
+24. ALERTS  
+26. FILE UPLOADING USING SENDKEYS  
+22. WINDOW HANDLING 
+13. WORKING WITH WINDOWS AND TABS
+25. ASSERTIONS
+29. AUTOIT FRAMEWORK  
+30. TESTNG FRAMEWORK 
+25. WAITS  
+31. MAVEN PROJECT  
+32. DATA DRIVEN FRAMEWORK  
+33. APACHE POI[Excel]  
+34. HYBRID FRAMEWORK  
+35. BDD CUCUMBER FRAMEWORK  
+====================
+TestNG:Concepts
+-------
+1. TestNG Library inclusion (.jar / Maven dependency)
+2. No 'main()' method required
+3. TestNG Test Execution(@Test)
+4. Test Results – Pass / Fail count 
+5. HTML Reports – `test-output/index.html`
+6. Test priority
+7. Invocation count=3
+8. Test suite execution using `testng.xml`
+9. Failed test re-run – `testng-failed.xml`
+10. TestNG Annotations (`@Test`, `@BeforeSuite`, `@AfterSuite`, `@BeforeTest`, `@AfterTest`, `@BeforeClass`, `@AfterClass`, `@BeforeMethod`, `@AfterMethod`, `@BeforeGroups`, `@AfterGroups`)
+11. Data-driven testing (`.properties`, `.xlsx`, `@DataProvider`)
+12. Assertions (Hard, Soft)
+13. Parameters from `testng.xml`
+14. Groups (Smoke, Sanity, Regression)
+15. Parallel execution
+16. Enable / Disable tests
