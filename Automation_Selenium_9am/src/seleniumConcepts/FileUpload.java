@@ -35,9 +35,9 @@ public class FileUpload {
 		Thread.sleep(2000);
 		//uploadResume.sendKeys("D:\\Krishna N_QA_5years_Resume.docx");
 		//Use AutoIT here 
-		Runtime.getRuntime().exec("D:\\QT\\QT_Selenium_225,226,227\\Resume1.exe");
+		//Runtime.getRuntime().exec("D:\\QT\\QT_Selenium_225,226,227\\Resume1.exe");
 		
-		
+		Runtime.getRuntime().exec("D:\\QT\\abcd.exe");
 	}
 
 }

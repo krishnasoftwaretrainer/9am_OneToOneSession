@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testNG.SwagLabsLoginPage_TestNG">
+      <class name="testNG.TestNG_Annotations">
         <methods>
-          <include name="SwagLabsLogin_ValidValid"/>
+          <include name="SwagLabsLogin_InvalidInvalid"/>
+          <include name="BrowserSetup"/>
+          <include name="BrowserClose"/>
         </methods>
-      </class> <!-- testNG.SwagLabsLoginPage_TestNG -->
+      </class> <!-- testNG.TestNG_Annotations -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
